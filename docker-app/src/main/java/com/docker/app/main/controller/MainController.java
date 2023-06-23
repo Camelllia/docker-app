@@ -15,6 +15,6 @@ public class MainController {
 
     @GetMapping("/jenkins-webhooks")
     public ResponseEntity<?> jenkins() {
-        return new ResponseEntity<>("------- jenkins-webhooks test -------", HttpStatus.OK);
+        return new ResponseEntity<>("------- commit -------", HttpStatus.OK);
     }
 }
